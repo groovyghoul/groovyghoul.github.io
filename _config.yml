@@ -7,7 +7,6 @@ exclude: ["README.md"] # files to exclude
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-permalink: pretty
 
 gems: [jekyll-paginate]
 

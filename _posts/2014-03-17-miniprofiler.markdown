@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "MiniProfiler with ASP.NET MVC"
+date:   2014-03-17 17:05:50 -0400
+categories: csharp miniprofiler performance
+---
+
 At work we were having trouble with the amount of time one of our pages was taking to move forward. To be fair, this page was doing a lot of work and posting a lot of data in one shot, but it really shouldn't have been taking upwards of 15-20 seconds.
 
 Using the normal means ([Fiddler](http://www.telerik.com/fiddler), [Glimpse](http://getglimpse.com/), [Chrome tools](https://developers.google.com/chrome-developer-tools/), etc), we were still having trouble pinpointing the problem. We ruled out the [jQuery](http://jquery.com/) validator, JSON serializing and the action method in our controller.

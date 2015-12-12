@@ -1,0 +1,6 @@
+_config.yml
+_site/*
+*Thumbs.db
+.sass-cache/
+.jekyll-metadata
+.DS_Store

@@ -69,7 +69,7 @@ sudo apt-get install libunwind8 gettext libssl-dev libcurl4-openssl-dev zlib1g l
 
 * Install Mono
 
-Breaking down the instructions at http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives`:
+Breaking down the instructions at [http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives](http://www.mono-project.com/docs/getting-started/install/linux/#debian-ubuntu-and-derivatives):
 
 {% highlight bash %}
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
@@ -138,7 +138,7 @@ sudo npm install -g npm
 
 ### Install Docker
 
-My suggestion would be to use the official instructions at http://docs.docker.com/engine/installation/ubuntulinux/, however, I followed the posting at https://blog.markrendle.net/fun-with-asp-net-5-linux-docker-part-3/.
+My suggestion would be to use the official instructions at [http://docs.docker.com/engine/installation/ubuntulinux/](http://docs.docker.com/engine/installation/ubuntulinux/), however, I followed the posting at [https://blog.markrendle.net/fun-with-asp-net-5-linux-docker-part-3/](https://blog.markrendle.net/fun-with-asp-net-5-linux-docker-part-3/).
 
 {% highlight bash %}
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 36A1D7869245C8950F966E92D8576A8BA88D21E9

@@ -18,7 +18,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: bytemares-test
+      title: bytemares
 
 description: ranting of a sane person
 author:

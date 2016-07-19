@@ -8,15 +8,15 @@ categories: powershell email
 In a Powershell terminal, set the following:
 
 {% highlight powershell %}
-C:\> $EmailFrom = "from@somecompany.com"
-C:\> $EmailTo = "me@mycompany.com"
-C:\> $Subject = "Test email"
-C:\> $Body = "Testing to if email server works"
-C:\> $SMTPServer = "mail.somecompany.com"
-C:\> $SMTPClient = New-Object Net.Mail.SmtpClient($SMTPServer, 465)
-C:\> $SMTPClient.EnableSsl = $true
-C:\> $SMTPClient.Credentials = New-Object System.Net.NetworkCredential("username", "password")
-C:\> $SMTPClient.Send($EmailFrom, $EmailTo, $Subject, $Body)
+C:\&gt; $EmailFrom = "from@somecompany.com"
+C:\&gt; $EmailTo = "me@mycompany.com"
+C:\&gt; $Subject = "Test email"
+C:\&gt; $Body = "Testing to if email server works"
+C:\&gt; $SMTPServer = "mail.somecompany.com"
+C:\&gt; $SMTPClient = New-Object Net.Mail.SmtpClient($SMTPServer, 465)
+C:\&gt; $SMTPClient.EnableSsl = $true
+C:\&gt; $SMTPClient.Credentials = New-Object System.Net.NetworkCredential("username", "password")
+C:\&gt; $SMTPClient.Send($EmailFrom, $EmailTo, $Subject, $Body)
 {% endhighlight %}
 
 * obviously, use your own settings...

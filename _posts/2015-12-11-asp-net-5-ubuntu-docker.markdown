@@ -5,6 +5,8 @@ date:   2015-12-11 22:35:50 -0400
 categories: aspnet5 ubuntu docker
 ---
 
+*UPDATE (2016-OCT-10)*: Everything has changed, for the better. This process is much easier now. I will follow-up soon with a new guide.
+
 For my tests, I sparked up an [Ubuntu 14.04](http://www.ubuntu.com/) 64-bit image in Parallels.
 
 Following the instructions on the [Asp.Net site](https://docs.asp.net/en/latest/getting-started/installing-on-linux.html), I was able to get Asp.Net 5 installed on my image.

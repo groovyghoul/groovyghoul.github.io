@@ -82,6 +82,12 @@ From the MongoDb shell, type (or paste) the following
 config={"_id":"rs0","members":[{"_id":0,"host":"mongo0:30000"},{"_id":1,"host":"mongo1:30001"},{"_id":2,"host":"mongo2:30002"}]}
 {% endhighlight %}
 
+If you use this, you probably have to update your `hosts` file, as well.
+
+On Windows you can find it at:
+
+`C:\Windows\System32\drivers\etc\hosts`
+
 **Step 6:** Initiate the replica set
 
 Still in the MongoDb shell, type (or paste) the following

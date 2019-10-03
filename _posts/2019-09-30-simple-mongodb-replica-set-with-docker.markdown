@@ -88,6 +88,10 @@ On Windows you can find it at:
 
 `C:\Windows\System32\drivers\etc\hosts`
 
+Add
+
+`127.0.0.1 mongo0 mongo1 mongo2` to the file and save it.
+
 **Step 6:** Initiate the replica set
 
 Still in the MongoDb shell, type (or paste) the following

@@ -8,7 +8,7 @@ markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://groovyghoul.github.io" # the base hostname & protocol for your site

@@ -4,3 +4,8 @@ _posts/_site/*
 .sass-cache/
 .jekyll-metadata
 .DS_Store
+.jekyll-cache/
+
+# Bundle's config.
+.bundle/
+vendor/

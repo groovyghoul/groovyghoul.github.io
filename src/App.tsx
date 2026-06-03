@@ -5,7 +5,6 @@ import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Archives from './components/Archives';
-import BlogPreview from './components/BlogPreview';
 
 const App: React.FC = () => {
   return (
@@ -27,8 +26,6 @@ const App: React.FC = () => {
         <Projects />
 
         <Archives />
-        
-        <BlogPreview />
       </main>
 
       <footer className="footer section-container">

@@ -49,11 +49,6 @@ const Skills: React.FC = () => {
         />
       </div>
       <style>{`
-        .section-title {
-          font-size: 2.5rem;
-          margin-bottom: 3rem;
-          text-align: center;
-        }
         .skills-grid {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
   return (
     <section className="hero section-container">
       <div className="hero-bg-logo">
-        <img src="https://bytemares.com/assets/media/logo.png" alt="" />
+        <img src="/logo.png" alt="" />
       </div>
       <div className="hero-content">
         <motion.div

@@ -15,7 +15,7 @@ const BlogPreview: React.FC = () => {
       <div className="blog-header">
         <h2 className="section-title glow-text">Latest from Bytemares</h2>
         <div className="blog-logo-divider">
-          <img src="https://bytemares.com/assets/media/logo.png" alt="" />
+          <img src="/logo.png" alt="" />
         </div>
         <p className="blog-subtitle">Technical deep dives, DevOps guides, and software engineering insights.</p>
       </div>

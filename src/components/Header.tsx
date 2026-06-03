@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         <div className="logo-wrapper">
           <img src="/logo.png" alt="Bytemares Logo" className="logo-img" />
           <div className="logo-container">
-            <span className="logo-text">bytemares</span>
+            <span className="logo-text">richard o'neil // bytemares</span>
             <span className="tagline">now with nudity</span>
           </div>
         </div>

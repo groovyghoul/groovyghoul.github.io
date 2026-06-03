@@ -124,7 +124,7 @@ Error generating stack: `+e.message+`
           box-shadow: inset 0 0 20px rgba(0, 243, 255, 0.05);
         }
         .hero-main-logo-img {
-          height: 180px;
+          height: 240px;
           width: auto;
           filter: drop-shadow(0 0 20px var(--primary-neon));
           animation: 
@@ -253,15 +253,10 @@ Error generating stack: `+e.message+`
             font-size: 1.1rem;
           }
           .hero-main-logo-img {
-            height: 120px;
+            height: 160px;
           }
         }
       `})]}),du=(...e)=>e.filter((e,t,n)=>!!e&&e.trim()!==``&&n.indexOf(e)===t).join(` `).trim(),fu=e=>e.replace(/([a-z0-9])([A-Z])/g,`$1-$2`).toLowerCase(),pu=e=>e.replace(/^([A-Z])|[\s-_]+(\w)/g,(e,t,n)=>n?n.toUpperCase():t.toLowerCase()),mu=e=>{let t=pu(e);return t.charAt(0).toUpperCase()+t.slice(1)},hu={xmlns:`http://www.w3.org/2000/svg`,width:24,height:24,viewBox:`0 0 24 24`,fill:`none`,stroke:`currentColor`,strokeWidth:2,strokeLinecap:`round`,strokeLinejoin:`round`},gu=e=>{for(let t in e)if(t.startsWith(`aria-`)||t===`role`||t===`title`)return!0;return!1},_u=(0,b.createContext)({}),vu=()=>(0,b.useContext)(_u),yu=(0,b.forwardRef)(({color:e,size:t,strokeWidth:n,absoluteStrokeWidth:r,className:i=``,children:a,iconNode:o,...s},c)=>{let{size:l=24,strokeWidth:u=2,absoluteStrokeWidth:d=!1,color:f=`currentColor`,className:p=``}=vu()??{},m=r??d?Number(n??u)*24/Number(t??l):n??u;return(0,b.createElement)(`svg`,{ref:c,...hu,width:t??l??hu.width,height:t??l??hu.height,stroke:e??f,strokeWidth:m,className:du(`lucide`,p,i),...!a&&!gu(s)&&{"aria-hidden":`true`},...s},[...o.map(([e,t])=>(0,b.createElement)(e,t)),...Array.isArray(a)?a:[a]])}),bu=(e,t)=>{let n=(0,b.forwardRef)(({className:n,...r},i)=>(0,b.createElement)(yu,{ref:i,iconNode:t,className:du(`lucide-${fu(mu(e))}`,`lucide-${e}`,n),...r}));return n.displayName=mu(e),n},xu=bu(`award`,[[`path`,{d:`m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526`,key:`1yiouv`}],[`circle`,{cx:`12`,cy:`8`,r:`6`,key:`1vp47v`}]]),Su=bu(`code`,[[`path`,{d:`m16 18 6-6-6-6`,key:`eg8j8`}],[`path`,{d:`m8 6-6 6 6 6`,key:`ppft3o`}]]),Cu=bu(`database`,[[`ellipse`,{cx:`12`,cy:`5`,rx:`9`,ry:`3`,key:`msslwz`}],[`path`,{d:`M3 5V19A9 3 0 0 0 21 19V5`,key:`1wlel7`}],[`path`,{d:`M3 12A9 3 0 0 0 21 12`,key:`mv7ke4`}]]),wu=bu(`external-link`,[[`path`,{d:`M15 3h6v6`,key:`1q9fwt`}],[`path`,{d:`M10 14 21 3`,key:`gplh6r`}],[`path`,{d:`M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6`,key:`a6xqqp`}]]),Tu=bu(`layers`,[[`path`,{d:`M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z`,key:`zw3jo`}],[`path`,{d:`M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12`,key:`1wduqc`}],[`path`,{d:`M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17`,key:`kqbvx6`}]]),Eu=bu(`terminal`,[[`path`,{d:`M12 19h8`,key:`baeox8`}],[`path`,{d:`m4 17 6-6-6-6`,key:`1yngyt`}]]),Du=({title:e,icon:t,skills:n})=>(0,C.jsxs)(lu.div,{whileHover:{y:-5},className:`glass-card skill-category`,children:[(0,C.jsxs)(`div`,{className:`category-header`,children:[(0,C.jsx)(t,{className:`category-icon`,size:24}),(0,C.jsx)(`h3`,{children:e})]}),(0,C.jsx)(`ul`,{className:`skill-list`,children:n.map(e=>(0,C.jsxs)(`li`,{className:`skill-item`,children:[(0,C.jsx)(`span`,{className:`skill-dot`}),e]},e))})]}),Ou=()=>(0,C.jsxs)(`section`,{id:`skills`,className:`section-container`,children:[(0,C.jsx)(`h2`,{className:`section-title glow-text`,children:`Technical Arsenal`}),(0,C.jsxs)(`div`,{className:`skills-grid`,children:[(0,C.jsx)(Du,{title:`Languages & Frameworks`,icon:Su,skills:[`C# / .NET Core`,`ASP.NET MVC`,`JavaScript`,`Vue.js`,`Ruby`,`Python`,`Lua`]}),(0,C.jsx)(Du,{title:`Backend & Infrastructure`,icon:Cu,skills:[`RESTful APIs`,`Azure Pipelines`,`CI/CD`,`AWS exposure`,`Infrastructure as Code`,`Node.js`]}),(0,C.jsx)(Du,{title:`Data Systems`,icon:Tu,skills:[`PostgreSQL`,`SQL Server`,`MongoDB (NoSQL)`,`Interbase / Firebird`,`Redis`]}),(0,C.jsx)(Du,{title:`Architecture & Tools`,icon:Eu,skills:[`Micro-services`,`Clean Architecture`,`Neovim`,`JetBrains Rider`,`Agile / Scrum`,`Docker`]})]}),(0,C.jsx)(`style`,{children:`
-        .section-title {
-          font-size: 2.5rem;
-          margin-bottom: 3rem;
-          text-align: center;
-        }
         .skills-grid {
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

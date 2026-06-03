@@ -112,7 +112,7 @@ const Hero: React.FC = () => {
           box-shadow: inset 0 0 20px rgba(0, 243, 255, 0.05);
         }
         .hero-main-logo-img {
-          height: 180px;
+          height: 240px;
           width: auto;
           filter: drop-shadow(0 0 20px var(--primary-neon));
           animation: 
@@ -241,7 +241,7 @@ const Hero: React.FC = () => {
             font-size: 1.1rem;
           }
           .hero-main-logo-img {
-            height: 120px;
+            height: 160px;
           }
         }
       `}</style>
